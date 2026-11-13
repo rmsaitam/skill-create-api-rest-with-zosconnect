@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "cobol-openapi-generator": {
+      "source": "rmsaitam/skill-create-api-rest-with-zosconnect",
+      "sourceType": "github",
+      "skillPath": "skills/cobol-openapi-generator/SKILL.md",
+      "computedHash": "2a159c1800f226b230ecf63aa66213175e2c48f4cc82fbcd914f83dbe80481ea"
+    }
+  }
+}
