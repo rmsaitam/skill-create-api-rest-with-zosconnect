@@ -1,0 +1,27 @@
+{
+  "api": {
+    "title": "Broken API",
+    "version": "1.0.0"
+  },
+  "operation": {
+    "path": "customers",
+    "method": "head",
+    "operationId": "brokenOperation",
+    "summary": "Broken operation"
+  },
+  "responses": [
+    {
+      "code": "2XX",
+      "description": ""
+    }
+  ],
+  "mapping": {
+    "required": ["CUSTOMER-ID"]
+  },
+  "zosConnect": {
+    "release": "3.0.107",
+    "feature": "zosConnect-3.0",
+    "apiType": "provider",
+    "contextRoot": "/api/other"
+  }
+}

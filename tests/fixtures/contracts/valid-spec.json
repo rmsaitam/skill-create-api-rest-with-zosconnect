@@ -1,0 +1,82 @@
+{
+  "api": {
+    "title": "Customer API",
+    "version": "1.0.0",
+    "description": "Customer lookup and maintenance for the sample CICS service.",
+    "contextRoot": "/api/customer",
+    "host": "api.example.com",
+    "schemes": ["https"]
+  },
+  "operation": {
+    "path": "/customers/{customerId}",
+    "method": "put",
+    "operationId": "updateCustomer",
+    "summary": "Update a customer",
+    "description": "Updates the customer record and returns its current state.",
+    "tags": ["customers"],
+    "mediaType": "application/json"
+  },
+  "parameters": [
+    {
+      "name": "customerId",
+      "in": "path",
+      "required": true,
+      "type": "integer",
+      "format": "int64",
+      "description": "Customer identifier."
+    }
+  ],
+  "request": {
+    "copybook": "tests/fixtures/copybooks/customer-request.cbl",
+    "required": true
+  },
+  "responses": [
+    {
+      "code": "200",
+      "description": "Customer updated",
+      "copybook": "tests/fixtures/copybooks/customer-response.cbl"
+    },
+    {
+      "code": "404",
+      "description": "Customer not found",
+      "copybook": "tests/fixtures/copybooks/error-response.cbl"
+    }
+  ],
+  "mapping": {
+    "naming": "camelCase",
+    "required": [
+      {
+        "field": "CUSTOMER-ID",
+        "evidence": "Required by the customer interface contract."
+      }
+    ],
+    "enums": [
+      {
+        "field": "CUSTOMER-TYPE",
+        "values": ["I", "B"],
+        "evidence": "Documented in the customer interface contract."
+      }
+    ],
+    "odo": [
+      {
+        "field": "ITEM-COUNT",
+        "expose": false,
+        "reason": "The array size is computed from the items."
+      }
+    ]
+  },
+  "zosConnect": {
+    "release": "3.0.107",
+    "feature": "zosConnect-3.0",
+    "apiType": "provider",
+    "serviceType": "CICS",
+    "contextRoot": "/api/customer"
+  },
+  "output": {
+    "dir": "zosconnect-contract",
+    "swagger": "swagger.json",
+    "openapi": "openapi.yml",
+    "mapping": "mapping-analysis.md",
+    "report": "generation-report.md"
+  }
+}
