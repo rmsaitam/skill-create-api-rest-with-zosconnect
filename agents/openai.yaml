@@ -1,0 +1,4 @@
+interface:
+  display_name: "COBOL OpenAPI Generator"
+  short_description: "Generate z/OS Connect Swagger and OpenAPI contracts from copybooks"
+  default_prompt: "Use $cobol-openapi-generator to analyze these COBOL copybooks and generate z/OS Connect Swagger 2.0 and OpenAPI 3.0 contracts."

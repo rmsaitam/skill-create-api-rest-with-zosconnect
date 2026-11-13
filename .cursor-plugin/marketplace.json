@@ -1,0 +1,16 @@
+{
+  "name": "create-api-rest-with-zosconnect",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)"
+  },
+  "metadata": {
+    "description": "COBOL copybook to IBM z/OS Connect OpenAPI skill for AI coding agents."
+  },
+  "plugins": [
+    {
+      "name": "create-api-rest-with-zosconnect",
+      "source": ".",
+      "description": "Generates Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks with IBM z/OS Connect compatibility validation."
+    }
+  ]
+}

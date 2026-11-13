@@ -1,0 +1,21 @@
+{
+  "name": "create-api-rest-with-zosconnect",
+  "interface": {
+    "displayName": "COBOL OpenAPI Generator"
+  },
+  "plugins": [
+    {
+      "name": "create-api-rest-with-zosconnect",
+      "description": "Generates Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks with IBM z/OS Connect compatibility validation.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

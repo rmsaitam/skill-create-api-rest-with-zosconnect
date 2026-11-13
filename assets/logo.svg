@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-label="COBOL OpenAPI Generator logo">
+  <rect width="320" height="96" rx="14" fill="#0F62FE"/>
+  <rect x="20" y="22" width="44" height="52" rx="3" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="27" y="31" width="30" height="3" fill="#0F62FE"/>
+  <rect x="27" y="39" width="22" height="3" fill="#0F62FE"/>
+  <rect x="27" y="47" width="26" height="3" fill="#0F62FE"/>
+  <rect x="27" y="55" width="16" height="3" fill="#0F62FE"/>
+  <circle cx="88" cy="36" r="8" fill="#FFFFFF"/>
+  <circle cx="98" cy="52" r="7" fill="#FFFFFF"/>
+  <circle cx="88" cy="68" r="8" fill="#FFFFFF"/>
+  <path d="M88 36 L98 52 L88 68" fill="none" stroke="#0F62FE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="124" y="45" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">COBOL OpenAPI</text>
+  <text x="124" y="67" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#D0E2FF">z/OS Connect Generator</text>
+</svg>

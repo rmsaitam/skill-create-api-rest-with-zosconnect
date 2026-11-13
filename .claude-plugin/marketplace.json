@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "create-api-rest-with-zosconnect",
+  "description": "COBOL copybook to IBM z/OS Connect OpenAPI skill for AI coding agents.",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect"
+  },
+  "plugins": [
+    {
+      "name": "create-api-rest-with-zosconnect",
+      "description": "Generates Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks with IBM z/OS Connect compatibility validation.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "create-api-rest-with-zosconnect",
+  "version": "0.1.0",
+  "description": "Generates Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks with IBM z/OS Connect compatibility validation.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect",
+  "repository": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect",
+  "license": "MIT",
+  "keywords": [
+    "cobol",
+    "copybook",
+    "openapi",
+    "swagger",
+    "zos-connect",
+    "ibm-z",
+    "api-rest",
+    "mainframe",
+    "cics",
+    "ims",
+    "db2"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "COBOL OpenAPI Generator",
+    "shortDescription": "Generate z/OS Connect OpenAPI contracts from copybooks",
+    "longDescription": "Generate Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks for IBM z/OS Connect. The skill parses copybooks, interviews the developer for endpoint details, maps COBOL fields to JSON schemas, applies documented z/OS Connect restrictions, validates the generated documents, and reports what still requires the target toolchain.",
+    "developerName": "Reginaldo (rmsaitam)",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write",
+      "Command"
+    ],
+    "websiteURL": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect",
+    "defaultPrompt": [
+      "Generate a z/OS Connect OpenAPI 3.0 contract from these COBOL copybooks",
+      "Analyze this copybook and tell me which fields can map to JSON",
+      "Validate this Swagger 2.0 document for z/OS Connect compatibility"
+    ],
+    "brandColor": "#0F62FE",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

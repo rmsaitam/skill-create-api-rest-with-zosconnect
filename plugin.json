@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "create-api-rest-with-zosconnect",
+  "description": "Generates Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks with IBM z/OS Connect compatibility validation."
+}

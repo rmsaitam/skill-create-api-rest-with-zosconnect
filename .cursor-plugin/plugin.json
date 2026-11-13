@@ -1,0 +1,28 @@
+{
+  "name": "create-api-rest-with-zosconnect",
+  "version": "0.1.0",
+  "description": "Generates Swagger 2.0 and OpenAPI 3.0 contracts from COBOL copybooks with IBM z/OS Connect compatibility validation.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect",
+  "repository": "https://github.com/rmsaitam/skill-create-api-rest-with-zosconnect",
+  "license": "MIT",
+  "keywords": [
+    "cobol",
+    "copybook",
+    "openapi",
+    "swagger",
+    "zos-connect",
+    "ibm-z",
+    "api-rest",
+    "mainframe",
+    "cics",
+    "ims",
+    "db2"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "logo": "assets/logo.svg"
+}
